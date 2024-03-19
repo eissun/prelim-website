@@ -1,0 +1,104 @@
+ /* Body Style */
+
+ body {
+    text-align: center;
+    background-image: url("img_bgindex.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+ /* Header */
+
+ .header2 {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    height: 45px;
+    left: 0;
+    padding: 0;
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+    background-color: #000435;
+    opacity: 0.70;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+  }
+
+ /* Button Styles */
+
+.backbutton {
+  appearance: none;
+  background-color: #FFFFFF;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #ADCFFF 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -.24px;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.3rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.backbutton:hover {
+    background-color: #81c1f5;
+  box-shadow: #3781bd 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+
+.backbutton:active {
+  transform: scale(1.025);
+}
+
+@media (min-width: 768px) {
+  .backbutton {
+    font-size: 1.0rem;
+    padding: .50rem 1rem;
+  }
+}
+
+ /* Image */
+
+  img {
+    border-radius: 25px;
+    border: 2px solid white;
+    padding: 20px; 
+    width: 180px;
+    height: 180px; 
+    position:sticky;
+}
+
+ 
+ /* Family Image Alignment*/
+
+ * {
+    box-sizing: border-box;
+  }
+  
+.column {
+
+    float: left;
+    width: 33.15%;
+    padding: 5px;
+  }
+  
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }

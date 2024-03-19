@@ -1,0 +1,122 @@
+ /* Body Style */
+
+ body {
+    text-align: center;
+    background-image: url("img_bgindex.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+/* Header for other web pages */
+
+.header2 {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    height: 60px;
+    left: 0;
+    padding: 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+    background-color: #000435;
+    opacity: 0.70;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+  }
+
+ /* Button Styles */
+
+ .backbutton {
+  appearance: none;
+  background-color: #FFFFFF;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #ADCFFF 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -.24px;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.3rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.backbutton:hover {
+  background-color: #81c1f5;
+  box-shadow: #3781bd 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+
+.backbutton:active {
+  transform: scale(1.025);
+}
+
+@media (min-width: 768px) {
+  .backbutton {
+    font-size: 1.0rem;
+    padding: .50rem 1rem;
+  }
+}
+
+  /* Button */
+
+.subbutton {
+    display: inline-block;
+    background-color: #000435;
+    border: 0 solid #E5E7EB;
+    box-sizing: border-box;
+    color: #faf8f8;
+    display: flex;
+    font-family: "Avenir Next LT W01 Bold",sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 5.0rem;
+    padding: .75rem 1.65rem;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .subbutton:focus {
+  outline: 0;
+  }
+  
+  .subbutton:after {
+  content: '';
+  position: absolute;
+  border: 1px solid white;
+  bottom: 4px;
+  left: 4px;
+  width: calc(100% - 1px);
+  height: calc(100% - 1px);
+  }
+  
+  .subbutton:hover:after {
+  bottom: 2px;
+  left: 2px;
+  }
+  
+  @media (min-width: 768px) {
+  .subbutton {
+    padding: .75rem 3rem;
+    font-size: 1.25rem;
+  }
+  }
